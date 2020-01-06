@@ -1,0 +1,170 @@
+body {
+    background-image: url('../img/background.png');
+    color: #666;
+    font-family: Lato, sans-serif;
+    font-size: 16px;
+}
+
+body>.container {
+    background-color: #fff;
+    box-shadow: 0 0 15px #585858;
+    margin-bottom: 50px;
+}
+
+a,
+a:visited {
+    color: #73C82C;
+}
+a:hover {
+    color: #3a7709;
+}
+
+header.row>.header-left {
+    background-color: #73C82C;
+    border-bottom: 2px solid #fff;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header.row>.header-left>h1,
+header.row>.header-left>h2 {
+    font-family: Questrial, sans-serif;
+    font-weight: 800;
+    text-shadow: 0 0 2px #333;
+    margin: 0;
+}
+
+header.row>.header-left>h1 a,
+header.row>.header-left>h2 a {
+    color: #fff;
+    text-decoration: none;
+}
+
+header.row>.header-left>h1 a {
+    font-size: 30px;
+}
+
+header.row>.header-left>h2 a {
+    font-size: 20px;
+}
+
+header.row>.header-left>h1 a:hover,
+header.row>.header-left>h2 a:hover {
+    text-shadow: 1px 1px 7px #555;
+}
+
+header.row>.header-right {
+    min-height: 94px;
+    background-color: #fff;
+    border-bottom: 2px solid #73C82C;
+}
+
+section.row {
+    overflow: hidden;
+}
+
+aside.sidebar {
+    background: #73C82C url('../img/sidebar_bg.png') right repeat-y;
+    color: #fff;
+    padding: 5px 20px;
+    margin-bottom: -5000px;
+    padding-bottom: 5000px;
+    text-shadow: 0 0 1px #666;
+}
+
+aside.sidebar>.sidebar-menu {
+    padding: 10px 0;
+}
+
+aside.sidebar>.sidebar-menu>.nav-pills>li a {
+    color: #fff;
+    text-shadow: 0 0 1px #666;
+    text-decoration: none;
+}
+
+aside.sidebar>.sidebar-menu>.nav-pills>li a:focus,
+aside.sidebar>.sidebar-menu>.nav-pills>li a:hover,
+aside.sidebar>.sidebar-menu>.nav-pills>li.active>a,
+aside.sidebar>.sidebar-menu>.nav-pills>li.active>a:hover {
+    background-color: rgba(50, 164, 0, 0.5);
+    box-shadow: inset 1px 1px 2px rgb(50, 164, 0);
+    text-shadow: none;
+    color: #fff;
+}
+
+aside.sidebar>.sidebar-top,
+aside.sidebar>.sidebar-middle,
+aside.sidebar>.sidebar-bottom {
+    padding: 10px;
+}
+
+aside.sidebar a {
+    color: #fff;
+}
+
+aside.sidebar .widget>h3 {
+    font-size: 18px;
+    color: #fff;
+    margin: 10px 0;
+}
+
+main.content {
+    background-color: #fff;
+    padding: 20px;
+}
+
+footer.row>.footer-left {
+    background-color: #73C82C;
+    border-top: 2px solid #fff;
+    height: 56px;
+    text-align: center;
+}
+
+footer.row>.footer-left p {
+    color: #fff;
+    padding-top: 15px;
+}
+
+footer.row>.footer-left a {
+    color: #fff;
+    text-decoration: underline;
+}
+
+footer.row>.footer-right {
+    background-image: url('../img/footer_bg.png');
+    background-repeat: repeat-x;
+    height: 56px;
+}
+
+.btn-primary {
+    background-color: #73C82C;
+    border: 1px solid #85e03b;
+}
+.btn-primary:hover {
+    background-color: #3e7014;
+    border: 1px solid #3e7014;
+}
+
+/* Large desktops and laptops */
+
+@media (min-width: 1200px) {}
+
+/* Landscape tablets and medium desktops */
+
+@media (min-width: 992px) and (max-width: 1199px) {}
+
+/* Portrait tablets and small desktops */
+
+@media (min-width: 768px) and (max-width: 991px) {}
+
+/* Landscape phones and portrait tablets */
+
+@media (max-width: 767px) {}
+
+/* Portrait phones and smaller */
+
+@media (max-width: 480px) {}
+
+@media print {
+    /* If you're going to have a print stylesheet, now's the time */
+}
